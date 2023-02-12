@@ -1,0 +1,15 @@
+
+
+
+section.blog {
+    margin-top: 20px;
+}
+
+.blog_container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.blog_container  h4 {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,83 @@
+
+
+main .main_container {
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+header  .new_post {
+    /* border: 1px solid  #4CAF50; */
+    background-color: rgb(206, 206, 206);
+    padding: 20px 50px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: 500;
+    box-shadow: 2px 2px  4px rgb(145, 145, 145);
+    transition: .5s ease-in;
+}
+header  .new_post:hover {
+    transform: scale(1.06);
+}
+
+#modal h4{
+    margin: 20px 0;
+    text-align: center;
+}
+#modal .input_field {
+    margin: 10px 0;
+}
+#modal .input_field {
+    display: flex;
+    justify-content: center;
+}
+#modal .input_field  input,
+#modal .input_field  textarea {
+    width: 70%;
+    outline: none;
+    padding: 10px 15px;
+    resize: none;
+    border: 1px solid black;
+}
+#modal .input_field  textarea {
+    height: 200px;
+}
+#modal .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#modal .buttons button {
+    padding: 10px 25px;
+    text-transform: capitalize;
+    outline: none;
+    border: none; 
+    cursor: pointer;
+}
+#modal .buttons button:first-child {
+    background-color: #e44141;
+    color: white;
+}
+#modal .buttons button:last-child {
+    background-color: #18754a;
+    color: white;
+}
+
+
+/* all post  */
+
+.allpost {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+}
+

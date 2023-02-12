@@ -1,0 +1,40 @@
+
+
+.allpost .single {
+    padding: 10px 15px;
+    flex-basis: 100%;
+    background-color: rgb(220, 238, 255);
+    border-radius: 10px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.allpost .single  h2 {
+    margin: 10px 0;
+    color: black;
+}
+.allpost .single  p {
+    margin: 10px 0;
+    color: black;
+}
+.allpost .single .icons {
+    display: flex;
+    gap: 10px;
+    align-self: flex-end;
+    align-self: flex-end;
+}
+.allpost .single .icons i {
+    font-size: 20px;
+    cursor: pointer;
+}
+@media (min-width:668px) {
+    .allpost .single {
+        flex-basis: 45%;
+    }
+}
+@media (min-width:1000px) {
+    .allpost .single {
+        flex-basis: 30%;
+    }
+}
